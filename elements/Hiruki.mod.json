@@ -1,0 +1,12 @@
+{
+  "_fv": 85,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "I",
+    "keyBindingName": "Hiruki",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Hiru"
+    }
+  }
+}

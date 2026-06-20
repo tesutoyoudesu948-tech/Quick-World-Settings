@@ -1,0 +1,12 @@
+{
+  "_fv": 85,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "O",
+    "keyBindingName": "Yoruki",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Yoru"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 85,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "U",
+    "keyBindingName": "Asaki",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Asa"
+    }
+  }
+}

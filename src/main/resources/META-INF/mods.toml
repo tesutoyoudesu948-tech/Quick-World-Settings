@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Not specified"
+
+[[mods]]
+modId="quick_world_settings_"
+version="1.2.1"
+displayName="Quick World Settings "
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="aaatttt266"
+description="A simple utility mod that lets you quickly change the time, weather, and night vision settings."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.quick_world_settings_]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

@@ -1,0 +1,525 @@
+{
+  "mod_elements": [
+    {
+      "name": "Asa",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/procedures/AsaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Asaki",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asaki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/network/AsakiMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Hiru",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hiru",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/procedures/HiruProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hiruki",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hiruki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/network/HirukiMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Yoru",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yoru",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/procedures/YoruProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yoruki",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yoruki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/network/YorukiMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Settei",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "settei",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/world/inventory/SetteiMenu.java",
+          "src/main/java/net/mcreator/timechange/client/gui/SetteiScreen.java",
+          "src/main/java/net/mcreator/timechange/network/SetteiButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Guikidou",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guikidou",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/procedures/GuikidouProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Guikidouki",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guikidouki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/network/GuikidoukiMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "A",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/procedures/AProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "B",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/procedures/BProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "C",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/procedures/CProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Koteisuru",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koteisuru",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/procedures/KoteisuruProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zikannmodosu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zikannmodosu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/procedures/ZikannmodosuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnndoD",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anndo_d",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/procedures/AnndoDProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnndoIIIIIIIIIII",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anndo_iiiiiiiiiii",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/procedures/AnndoIIIIIIIIIIIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mannpukudo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mannpukudo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/timechange/procedures/MannpukudoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "time",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.quick_world_settings_.settei.button_resume": "Resume",
+      "key.time_change.asaki": "Asaki",
+      "gui.time_change.settei.button_night": "Night",
+      "key.time_change.yoruki": "Yoruki",
+      "gui.quick_world_settings_.settei.button_thunder": "Thunder",
+      "gui.quick_world_settings_.settei.button_empty": "",
+      "key.time_change.hiruki": "Hiruki",
+      "gui.time_change.settei.button_thunder": "Thunder",
+      "gui.quick_world_settings_.settei.button_day": "Day",
+      "gui.quick_world_settings_.settei.button_sunrise": "Sunrise",
+      "gui.time_change.settei.label_set_time": "Set Time",
+      "gui.time_change.settei.label_night_vision": "Night Vision",
+      "gui.quick_world_settings_.settei.button_freeze": "Freeze",
+      "gui.quick_world_settings_.settei.button_night": "Night",
+      "gui.quick_world_settings_.settei.button_enable": "Enable",
+      "gui.time_change.settei.button_disable": "Disable",
+      "gui.time_change.settei.label_time_lock": "Time Lock",
+      "gui.time_change.settei.button_clear": "Clear",
+      "gui.time_change.settei.button_resume": "Resume",
+      "key.time_change.guikidouki": "Guikidouki",
+      "gui.quick_world_settings_.settei.label_night_vision": "Night Vision",
+      "gui.quick_world_settings_.settei.button_clear": "Clear",
+      "key.quick_world_settings_.guikidouki": "Guikidouki",
+      "key.quick_world_settings_.hiruki": "Hiruki",
+      "gui.quick_world_settings_.settei.label_set_weather": "Set Weather",
+      "gui.time_change.settei.label_world_settings": "World Settings",
+      "key.quick_world_settings_.asaki": "Asaki",
+      "key.quick_world_settings_.yoruki": "Yoruki",
+      "gui.quick_world_settings_.settei.label_feed": "Feed",
+      "gui.time_change.settei.label_set_weather": "Set Weather",
+      "gui.quick_world_settings_.settei.label_set_time": "Set Time",
+      "gui.time_change.settei.button_enable": "Enable",
+      "gui.quick_world_settings_.settei.button_disable": "Disable",
+      "gui.time_change.settei.button_day": "Day",
+      "gui.quick_world_settings_.settei.button_rain": "Rain",
+      "gui.time_change.settei.button_rain": "Rain",
+      "gui.quick_world_settings_.settei.label_time_lock": "Time Lock",
+      "gui.time_change.settei.button_freeze": "Freeze"
+    },
+    "ja_jp": {
+      "gui.quick_world_settings_.settei.button_resume": "オフ",
+      "gui.time_change.settei.button_night": "Night",
+      "key.time_change.asaki": "Asaki",
+      "key.time_change.yoruki": "Yoruki",
+      "gui.quick_world_settings_.settei.button_thunder": "雷",
+      "gui.quick_world_settings_.settei.button_empty": "",
+      "key.time_change.hiruki": "Hiruki",
+      "gui.quick_world_settings_.settei.button_day": "昼",
+      "gui.time_change.settei.button_thunder": "Thunder",
+      "gui.quick_world_settings_.settei.button_sunrise": "朝",
+      "gui.time_change.settei.label_set_time": "Set Time",
+      "gui.time_change.settei.label_night_vision": "Night Vision",
+      "gui.quick_world_settings_.settei.button_freeze": "オン",
+      "gui.quick_world_settings_.settei.button_night": "夜",
+      "gui.quick_world_settings_.settei.button_enable": "オン",
+      "gui.time_change.settei.button_disable": "Disable",
+      "gui.time_change.settei.label_time_lock": "Time Lock",
+      "gui.time_change.settei.button_clear": "Clear",
+      "gui.time_change.settei.button_resume": "Resume",
+      "key.time_change.guikidouki": "Guikidouki",
+      "gui.quick_world_settings_.settei.label_night_vision": "暗視",
+      "gui.quick_world_settings_.settei.button_clear": "晴",
+      "key.quick_world_settings_.guikidouki": "Guikidouki",
+      "key.quick_world_settings_.hiruki": "Hiruki",
+      "gui.quick_world_settings_.settei.label_set_weather": "天気設定",
+      "gui.time_change.settei.label_world_settings": "World Settings",
+      "key.quick_world_settings_.asaki": "Asaki",
+      "key.quick_world_settings_.yoruki": "Yoruki",
+      "gui.quick_world_settings_.settei.label_feed": "満腹度を満たす",
+      "gui.time_change.settei.label_set_weather": "Set Weather",
+      "gui.quick_world_settings_.settei.label_set_time": "時間設定",
+      "gui.time_change.settei.button_enable": "Enable",
+      "gui.quick_world_settings_.settei.button_disable": "オフ",
+      "gui.time_change.settei.button_day": "昼",
+      "gui.quick_world_settings_.settei.button_rain": "雨",
+      "gui.time_change.settei.button_rain": "Rain",
+      "gui.quick_world_settings_.settei.label_time_lock": "時間固定",
+      "gui.time_change.settei.button_freeze": "Freeze"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/timechange/init/QuickWorldSettingsModScreens.java",
+      "src/main/java/net/mcreator/timechange/init/QuickWorldSettingsModMenus.java",
+      "src/main/java/net/mcreator/timechange/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/timechange/init/QuickWorldSettingsModKeyMappings.java",
+      "src/main/java/net/mcreator/timechange/network/QuickWorldSettingsModVariables.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/mcreator/timechange/QuickWorldSettingsMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "quick_world_settings_",
+    "modName": "Quick World Settings ",
+    "version": "1.2.1",
+    "description": "A simple utility mod that lets you quickly change the time, weather, and night vision settings.",
+    "author": "aaatttt266",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.timechange"
+  },
+  "mcreatorVersion": 202600114619
+}

@@ -1,0 +1,283 @@
+{
+  "_fv": 85,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sunrise",
+          "text": "Sunrise",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Asa"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 132,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_day",
+          "text": "Day",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Hiru"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 195,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_night",
+          "text": "Night",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Yoru"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 240,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_set_time",
+          "text": {
+            "fixedValue": "Set Time"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 186,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_set_weather",
+          "text": {
+            "fixedValue": "Set Weather"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 177,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_clear",
+          "text": "Clear",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "A"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 132,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_rain",
+          "text": "Rain",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "B"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 186,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_thunder",
+          "text": "Thunder",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "C"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 235,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_time_lock",
+          "text": {
+            "fixedValue": "Time Lock"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 132,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_freeze",
+          "text": "Freeze",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Koteisuru"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 181,
+          "y": 111,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_resume",
+          "text": "Resume",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Zikannmodosu"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 239,
+          "y": 111,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_night_vision",
+          "text": {
+            "fixedValue": "Night Vision"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 127,
+          "y": 137,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_enable",
+          "text": "Enable",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "AnndoD"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 189,
+          "y": 133,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_disable",
+          "text": "Disable",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "AnndoIIIIIIIIIII"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 240,
+          "y": 133,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_feed",
+          "text": {
+            "fixedValue": "Feed"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 128,
+          "y": 157,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Mannpukudo"
+          },
+          "width": 25,
+          "height": 20,
+          "x": 189,
+          "y": 152,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
